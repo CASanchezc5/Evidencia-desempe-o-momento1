@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  width: 1920px;
+  height: 1080px;
+  background-color: #999595;
+}
+
+.header{
+  width: 1884px;
+  height: 260px;
+  background-color: #fa1e97;
+  margin: 5px;
+  padding: 5px;
+}
+
+.header .header-title{
+  text-align: center;
+  color: #fff;
+}
+
+.header .header-enlace{
+  display: flex;
+  justify-content: space-between;
+}
+
+.enlace{
+  width: 334px;
+  height: 79px;
+  background-color: #fff;
+  margin: 5px;
+  position: relative;
+}
+
+.enlace a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #797777;
+  font-weight: bold;
+  position: absolute;
+  top: 25px;
+  left: 40%;
+}
+
+.main{
+  width: 945px;
+  height: 754px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between ;
+  align-items: center;
+  background-color: #dd7f14;
+  position: relative;
+  margin: 5px;
+}
+
+.main .main-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top:50%;
+  left: 50%;
+}
+
+
+
+.main .img-main{
+  display: flex;
+  background-color:  #fa1e97;
+  width: 547px;
+  height: 260px;
+  position: relative;
+  margin: 15px;
+
+}
+
+.imgMain-title{
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: #fff;
+}
+
+.section-main{
+  width: 907px;
+  height: 370px;
+  background-color: #681a3a;
+  margin: 5px;
+  position: absolute;
+  top: 269px;
+  left: 980px;
+}
+
+.section-main .sectionmain-title{
+  text-align: center;
+  color: #fff;
+}
+
+.section-main .img-section .imgSection-title{
+  width: 133px;
+  height: 324px;
+  background-color: #237406;
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.section-main .section{
+  width: 710px;
+  height: 324px;
+  background-color:  #237406;
+  position: absolute;
+  top: 35px;
+  left: 150px;
+  margin-left: 10px;
+}
+
+.section .section-title{
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
